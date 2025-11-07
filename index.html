@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Help Emma Vitória Fight Leukemia</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f8f6ff; margin:0; padding:0; text-align:center;">
+<div style="background:#5a2ea8; padding:20px; color:white;">
+<button onclick="switchLanguage('en')" style="margin:5px; padding:10px 18px; font-size:16px; border:none; border-radius:6px; cursor:pointer;">English 🇺🇸🇬🇧</button>
+<button onclick="switchLanguage('pt')" style="margin:5px; padding:10px 18px; font-size:16px; border:none; border-radius:6px; cursor:pointer;">Português 🇧🇷</button>
+<p style="font-size:16px;margin-top:20px;font-weight:bold;">Campaign organized by Heberty Reis 💜</p>
+</div>
+
+<div style="padding:20px; max-width:700px; margin:auto;">
+<h1 class="lang en" style="color:#4a148c;">Help Emma Vitória Fight Leukemia</h1>
+<h1 class="lang pt" style="color:#4a148c; display:none;">Ajude Emma Vitória a Vencer a Leucemia</h1>
+
+<p class="lang en" style="color:#333; font-size:20px; line-height:1.6;">
+💔 I can't bear to see my daughter in this situation and being so limited… <br><br>
+My little girl, <strong>Emma Vitória (10 years old)</strong>, is fighting leukemia — a battle no child should ever face. She loves Frozen and still believes in miracles like in the movie. ❄️💜<br><br>
+But leukemia doesn't wait…<br><br>
+We are urgently trying to raise <strong>$10,000 USD</strong> to help with medical exams, medications, special food needs, and transportation to the hospital — costs that are increasing every day. 🆘<br><br>
+Please… help us with whatever you can. Every donation keeps hope alive. 🙏💛
+</p>
+
+<p class="lang pt" style="color:#333; font-size:20px; line-height:1.6; display:none;">
+💔 Eu não consigo mais ver minha filha nessa situação e estar tão limitado… <br><br>
+Minha pequena <strong>Emma Vitória (10 anos)</strong> está lutando contra a leucemia — uma batalha que nenhuma criança deveria enfrentar. Ela ama Frozen e ainda acredita em milagres, como no filme. ❄️💜<br><br>
+Mas a leucemia não espera…<br><br>
+Estamos tentando com urgência arrecadar <strong>$10.000 USD</strong> para exames, remédios, alimentação especial e transporte para o hospital — tudo está muito caro. 🆘<br><br>
+Por favor… nos ajude com qualquer quantia. Cada doação mantém a esperança viva. 🙏💛
+</p>
+
+<a href="https://www.paypal.com/donate/?business=FQDB2FFWT8FNS&no_recurring=0&item_name=to+help+in+the+treatment+of+leukemia&currency_code=USD" target="_blank" style="display:block;background-color:#ffd600;color:#4a148c;font-size:24px;font-weight:bold;padding:22px;border-radius:12px;text-decoration:none;margin:40px auto;max-width:350px; box-shadow:0 4px 10px rgba(0,0,0,0.25);">
+DONATE NOW 🎗️
+</a>
+</div>
+
+<script>
+function switchLanguage(lang) {
+  document.querySelectorAll('.lang').forEach(el => {
+    el.style.display = el.classList.contains(lang) ? '' : 'none';
+  });
+}
+switchLanguage('en');
+</script>
+
+</body>
+</html>
